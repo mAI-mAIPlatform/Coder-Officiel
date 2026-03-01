@@ -25,9 +25,9 @@ on:
     - '**/*.md'
 
 env:
-  APP_NAME: Coder
+  APP_NAME: VSCodium
   ASSETS_REPOSITORY: ${{ github.repository }}
-  BINARY_NAME: coder
+  BINARY_NAME: codium
   GH_REPO_PATH: ${{ github.repository }}
   ORG_NAME: ${{ github.repository_owner }}
   OS_NAME: windows
